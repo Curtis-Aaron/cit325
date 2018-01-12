@@ -1,0 +1,172 @@
+
+Type dropped.
+
+
+Type created.
+
+ base_t is NOT FINAL
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ ONAME                                              VARCHAR2(30)
+ NAME                                               VARCHAR2(30)
+
+METHOD
+------
+ FINAL CONSTRUCTOR FUNCTION BASE_T RETURNS SELF AS RESULT
+
+METHOD
+------
+ FINAL CONSTRUCTOR FUNCTION BASE_T RETURNS SELF AS RESULT
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ ONAME                          VARCHAR2                IN    
+ NAME                           VARCHAR2                IN    
+
+METHOD
+------
+ MEMBER FUNCTION GET_NAME RETURNS VARCHAR2
+
+METHOD
+------
+ MEMBER FUNCTION GET_ONAME RETURNS VARCHAR2
+
+METHOD
+------
+ MEMBER PROCEDURE SET_ONAME
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ ONAME                          VARCHAR2                IN    
+
+METHOD
+------
+ MEMBER FUNCTION TO_STRING RETURNS VARCHAR2
+
+
+Sequence dropped.
+
+
+Table dropped.
+
+
+Table created.
+
+
+Sequence created.
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ LOGGER_ID                                          NUMBER
+ LOG_TEXT                                           BASE_T
+
+
+Type body created.
+
+Default  : [BASE_T]                                                             
+Override : [SUBSTITUTE]                                                         
+
+PL/SQL procedure successfully completed.
+
+
+1 row created.
+
+
+PL/SQL procedure successfully completed.
+
+
+ LOGGER_ID ONAME                GET_NAME             TO_STRING                  
+---------- -------------------- -------------------- --------------------       
+         1 BASE_T               Unset                [BASE_T]                   
+         2 BASE_T               NEW                  [BASE_T]                   
+
+
+Type dropped.
+
+
+Type created.
+
+ item_t extends STUDENT.BASE_T
+ item_t is NOT FINAL
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ ONAME                                              VARCHAR2(30)
+ NAME                                               VARCHAR2(30)
+ ITEM_ID                                            NUMBER
+ ITEM_BARCODE                                       VARCHAR2(20)
+ ITEM_TYPE                                          NUMBER
+ ITEM_TITLE                                         VARCHAR2(60)
+ ITEM_SUBTITLE                                      VARCHAR2(60)
+ ITEM_RATING                                        VARCHAR2(8)
+ ITEM_RATING_AGENCY                                 VARCHAR2(4)
+ ITEM_RELEASE_DATE                                  DATE
+ CREATED_BY                                         NUMBER
+ CREATION_DATE                                      DATE
+ LAST_UPDATED_BY                                    NUMBER
+ LAST_UPDATE_DATE                                   DATE
+
+METHOD
+------
+ MEMBER FUNCTION GET_ONAME RETURNS VARCHAR2
+
+METHOD
+------
+ MEMBER PROCEDURE SET_ONAME
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ ONAME                          VARCHAR2                IN    
+
+METHOD
+------
+ FINAL CONSTRUCTOR FUNCTION ITEM_T RETURNS SELF AS RESULT
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ ONAME                          VARCHAR2                IN    
+ NAME                           VARCHAR2                IN    
+ ITEM_ID                        NUMBER                  IN    
+ ITEM_BARCODE                   VARCHAR2                IN    
+ ITEM_TYPE                      NUMBER                  IN    
+ ITEM_TITLE                     VARCHAR2                IN    
+ ITEM_SUBTITLE                  VARCHAR2                IN    
+ ITEM_RATING                    VARCHAR2                IN    
+ ITEM_RATING_AGENCY             VARCHAR2                IN    
+ ITEM_RELEASE_DATE              DATE                    IN    
+ CREATED_BY                     NUMBER                  IN    
+ CREATION_DATE                  DATE                    IN    
+ LAST_UPDATED_BY                NUMBER                  IN    
+ LAST_UPDATE_DATE               DATE                    IN    
+
+METHOD
+------
+ FINAL CONSTRUCTOR FUNCTION ITEM_T RETURNS SELF AS RESULT
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ ONAME                          VARCHAR2                IN    
+ NAME                           VARCHAR2                IN    
+
+METHOD
+------
+ MEMBER FUNCTION GET_NAME RETURNS VARCHAR2
+
+METHOD
+------
+ MEMBER FUNCTION TO_STRING RETURNS VARCHAR2
+
+
+Type body created.
+
+
+Type dropped.
+
+
+Type created.
+
+
+Type body created.
+
+
+PL/SQL procedure successfully completed.
+
+
+ LOGGER_ID ONAME                GET_NAME             TO_STRING                  
+---------- -------------------- -------------------- --------------------       
+         3 ITEM_T               NEW                  [ITEM_T].[NEW]             
+         4 CONTACT_T            NEW                  [CONTACT_T].[NEW]          

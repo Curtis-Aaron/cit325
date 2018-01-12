@@ -1,0 +1,322 @@
+
+Table altered.
+
+
+TABLE_NAME     COLUMN_ID COLUMN_NAME            NULLABLE DATA_TYPE              
+-------------- --------- ---------------------- -------- ------------           
+ITEM                   1 ITEM_ID                NOT NULL NUMBER(22)             
+ITEM                   2 ITEM_BARCODE           NOT NULL VARCHAR2(20)           
+ITEM                   3 ITEM_TYPE              NOT NULL NUMBER(22)             
+ITEM                   4 ITEM_TITLE             NOT NULL VARCHAR2(60)           
+ITEM                   5 ITEM_SUBTITLE          <Null>   VARCHAR2(60)           
+ITEM                   6 ITEM_DESC              NOT NULL CLOB                   
+ITEM                   7 ITEM_PHOTO             <Null>   BFILE                  
+ITEM                   8 ITEM_RATING            NOT NULL VARCHAR2(8)            
+ITEM                   9 ITEM_RATING_AGENCY     NOT NULL VARCHAR2(4)            
+ITEM                  10 ITEM_RELEASE_DATE      NOT NULL DATE                   
+ITEM                  11 CREATED_BY             NOT NULL NUMBER(22)             
+ITEM                  12 CREATION_DATE          NOT NULL DATE                   
+ITEM                  13 LAST_UPDATED_BY        NOT NULL NUMBER(22)             
+ITEM                  14 LAST_UPDATE_DATE       NOT NULL DATE                   
+ITEM                  15 TEXT_FILE_NAME         <Null>   VARCHAR2(30)           
+
+15 rows selected.
+
+
+Table created.
+
+
+Sequence created.
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ LOGGER_ID                                 NOT NULL NUMBER
+ OLD_ITEM_ID                                        NUMBER
+ OLD_ITEM_BARCODE                                   VARCHAR2(20)
+ OLD_ITEM_TYPE                                      NUMBER
+ OLD_ITEM_TITLE                                     VARCHAR2(60)
+ OLD_ITEM_SUBTITLE                                  VARCHAR2(60)
+ OLD_ITEM_RATING                                    VARCHAR2(8)
+ OLD_ITEM_RATING_AGENCY                             VARCHAR2(4)
+ OLD_ITEM_RELEASE_DATE                              DATE
+ OLD_CREATED_BY                                     NUMBER
+ OLD_CREATION_DATE                                  DATE
+ OLD_LAST_UPDATED_BY                                NUMBER
+ OLD_LAST_UPDATE_DATE                               DATE
+ OLD_TEXT_FILE_NAME                                 VARCHAR2(40)
+ NEW_ITEM_ID                                        NUMBER
+ NEW_ITEM_BARCODE                                   VARCHAR2(20)
+ NEW_ITEM_TYPE                                      NUMBER
+ NEW_ITEM_TITLE                                     VARCHAR2(60)
+ NEW_ITEM_SUBTITLE                                  VARCHAR2(60)
+ NEW_ITEM_RATING                                    VARCHAR2(8)
+ NEW_ITEM_RATING_AGENCY                             VARCHAR2(4)
+ NEW_ITEM_RELEASE_DATE                              DATE
+ NEW_CREATED_BY                                     NUMBER
+ NEW_CREATION_DATE                                  DATE
+ NEW_LAST_UPDATED_BY                                NUMBER
+ NEW_LAST_UPDATE_DATE                               DATE
+ NEW_TEXT_FILE_NAME                                 VARCHAR2(40)
+
+
+PL/SQL procedure successfully completed.
+
+
+         Old                        New                                         
+Logger  Item                       Item                                         
+  ID #  ID # Old Item Title        ID # New Item Title                          
+------ ----- -------------------- ----- ------------------------------          
+     1  1014 Brave Heart           1014 Brave Heart                             
+
+1 row selected.
+
+
+Package created.
+
+PROCEDURE ITEM_INSERT
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ PV_NEW_ITEM_ID                 NUMBER                  IN    
+ PV_NEW_ITEM_BARCODE            VARCHAR2                IN    
+ PV_NEW_ITEM_TYPE               NUMBER                  IN    
+ PV_NEW_ITEM_TITLE              VARCHAR2                IN    
+ PV_NEW_ITEM_SUBTITLE           VARCHAR2                IN    
+ PV_NEW_ITEM_RATING             VARCHAR2                IN    
+ PV_NEW_ITEM_RATING_AGENCY      VARCHAR2                IN    
+ PV_NEW_ITEM_RELEASE_DATE       DATE                    IN    
+ PV_NEW_CREATED_BY              NUMBER                  IN    
+ PV_NEW_CREATION_DATE           DATE                    IN    
+ PV_NEW_LAST_UPDATED_BY         NUMBER                  IN    
+ PV_NEW_LAST_UPDATE_DATE        DATE                    IN    
+ PV_NEW_TEXT_FILE_NAME          VARCHAR2                IN    
+PROCEDURE ITEM_INSERT
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ PV_OLD_ITEM_ID                 NUMBER                  IN    
+ PV_OLD_ITEM_BARCODE            VARCHAR2                IN    
+ PV_OLD_ITEM_TYPE               NUMBER                  IN    
+ PV_OLD_ITEM_TITLE              VARCHAR2                IN    
+ PV_OLD_ITEM_SUBTITLE           VARCHAR2                IN    
+ PV_OLD_ITEM_RATING             VARCHAR2                IN    
+ PV_OLD_ITEM_RATING_AGENCY      VARCHAR2                IN    
+ PV_OLD_ITEM_RELEASE_DATE       DATE                    IN    
+ PV_OLD_CREATED_BY              NUMBER                  IN    
+ PV_OLD_CREATION_DATE           DATE                    IN    
+ PV_OLD_LAST_UPDATED_BY         NUMBER                  IN    
+ PV_OLD_LAST_UPDATE_DATE        DATE                    IN    
+ PV_OLD_TEXT_FILE_NAME          VARCHAR2                IN    
+ PV_NEW_ITEM_ID                 NUMBER                  IN    
+ PV_NEW_ITEM_BARCODE            VARCHAR2                IN    
+ PV_NEW_ITEM_TYPE               NUMBER                  IN    
+ PV_NEW_ITEM_TITLE              VARCHAR2                IN    
+ PV_NEW_ITEM_SUBTITLE           VARCHAR2                IN    
+ PV_NEW_ITEM_RATING             VARCHAR2                IN    
+ PV_NEW_ITEM_RATING_AGENCY      VARCHAR2                IN    
+ PV_NEW_ITEM_RELEASE_DATE       DATE                    IN    
+ PV_NEW_CREATED_BY              NUMBER                  IN    
+ PV_NEW_CREATION_DATE           DATE                    IN    
+ PV_NEW_LAST_UPDATED_BY         NUMBER                  IN    
+ PV_NEW_LAST_UPDATE_DATE        DATE                    IN    
+ PV_NEW_TEXT_FILE_NAME          VARCHAR2                IN    
+PROCEDURE ITEM_INSERT
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ PV_OLD_ITEM_ID                 NUMBER                  IN    
+ PV_OLD_ITEM_BARCODE            VARCHAR2                IN    
+ PV_OLD_ITEM_TYPE               NUMBER                  IN    
+ PV_OLD_ITEM_TITLE              VARCHAR2                IN    
+ PV_OLD_ITEM_SUBTITLE           VARCHAR2                IN    
+ PV_OLD_ITEM_RATING             VARCHAR2                IN    
+ PV_OLD_ITEM_RATING_AGENCY      VARCHAR2                IN    
+ PV_OLD_ITEM_RELEASE_DATE       DATE                    IN    
+ PV_OLD_CREATED_BY              NUMBER                  IN    
+ PV_OLD_CREATION_DATE           DATE                    IN    
+ PV_OLD_LAST_UPDATED_BY         NUMBER                  IN    
+ PV_OLD_LAST_UPDATE_DATE        DATE                    IN    
+ PV_OLD_TEXT_FILE_NAME          VARCHAR2                IN    
+
+
+Package body created.
+
+
+PL/SQL procedure successfully completed.
+
+
+         Old                        New                                         
+Logger  Item                       Item                                         
+  ID #  ID # Old Item Title        ID # New Item Title                          
+------ ----- -------------------- ----- ------------------------------          
+     1  1014 Brave Heart           1014 Brave Heart                             
+     2 <Null <Null>                1035 King Arthur-Inserted                    
+       >                                                                        
+                                                                                
+     3  1035 King Arthur           1035 King Arthur-Changed                     
+     4  1035 King Arthur-Deleted  <Null <Null>                                  
+                                  >                                             
+                                                                                
+
+4 rows selected.
+
+
+Trigger created.
+
+No errors.
+
+Trigger created.
+
+No errors.
+
+1 row created.
+
+
+Common Lookup  Common Lookup  Common Lookup                                     
+Table          Column         Type                                              
+-------------- -------------- --------------                                    
+ITEM           ITEM_TYPE      BLU-RAY                                           
+
+1 row selected.
+
+
+Table altered.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+ Item                                           Item   Item                     
+ ID # Item Title           Item Subtitle        Rating Type                     
+----- -------------------- -------------------- ------ ------------------       
+ 1094 Bourne               <Null>               PG-13  Blu-ray                  
+ 1095 Bourne Legacy        <Null>               PG-13  Blu-ray                  
+ 1096 Star Wars            The Force Awakens    PG-13  Blu-ray                  
+
+3 rows selected.
+
+
+         Old                        New                                         
+Logger  Item                       Item                                         
+  ID #  ID # Old Item Title        ID # New Item Title                          
+------ ----- -------------------- ----- ------------------------------          
+     1  1014 Brave Heart           1014 Brave Heart                             
+     2 <Null <Null>                1035 King Arthur-Inserted                    
+       >                                                                        
+                                                                                
+     3  1035 King Arthur           1035 King Arthur-Changed                     
+     4  1035 King Arthur-Deleted  <Null <Null>                                  
+                                  >                                             
+                                                                                
+     5 <Null <Null>                1094 Bourne                                  
+       >                                                                        
+                                                                                
+     6 <Null <Null>                1095 Bourne Legacy:                          
+       >                                                                        
+                                                                                
+     7  1095 Bourne Legacy:        1095 Bourne Legacy                           
+     8 <Null <Null>                1096 Star Wars: The Force Awakens            
+       >                                                                        
+                                                                                
+     9  1096 Star Wars: The Force  1096 Star Wars                               
+              Awakens                                                           
+                                                                                
+
+9 rows selected.
+
+
+1 row updated.
+
+
+ Item                                           Item   Item                     
+ ID # Item Title           Item Subtitle        Rating Type                     
+----- -------------------- -------------------- ------ ------------------       
+ 1094 Bourne               <Null>               PG-13  Blu-ray                  
+ 1095 Bourne Legacy        <Null>               PG-13  Blu-ray                  
+ 1096 Star Wars            The Force Awakens    PG-13  Blu-ray                  
+
+3 rows selected.
+
+
+         Old                        New                                         
+Logger  Item                       Item                                         
+  ID #  ID # Old Item Title        ID # New Item Title                          
+------ ----- -------------------- ----- ------------------------------          
+     1  1014 Brave Heart           1014 Brave Heart                             
+     2 <Null <Null>                1035 King Arthur-Inserted                    
+       >                                                                        
+                                                                                
+     3  1035 King Arthur           1035 King Arthur-Changed                     
+     4  1035 King Arthur-Deleted  <Null <Null>                                  
+                                  >                                             
+                                                                                
+     5 <Null <Null>                1094 Bourne                                  
+       >                                                                        
+                                                                                
+     6 <Null <Null>                1095 Bourne Legacy:                          
+       >                                                                        
+                                                                                
+     7  1095 Bourne Legacy:        1095 Bourne Legacy                           
+     8 <Null <Null>                1096 Star Wars: The Force Awakens            
+       >                                                                        
+                                                                                
+     9  1096 Star Wars: The Force  1096 Star Wars                               
+              Awakens                                                           
+                                                                                
+    10  1096 Star Wars             1096 Star Wars: The Force Awakens            
+    11  1096 Star Wars: The Force  1096 Star Wars                               
+              Awakens                                                           
+                                                                                
+
+11 rows selected.
+
+
+1 row deleted.
+
+
+ Item                                           Item   Item                     
+ ID # Item Title           Item Subtitle        Rating Type                     
+----- -------------------- -------------------- ------ ------------------       
+ 1094 Bourne               <Null>               PG-13  Blu-ray                  
+ 1095 Bourne Legacy        <Null>               PG-13  Blu-ray                  
+
+2 rows selected.
+
+
+         Old                        New                                         
+Logger  Item                       Item                                         
+  ID #  ID # Old Item Title        ID # New Item Title                          
+------ ----- -------------------- ----- ------------------------------          
+     1  1014 Brave Heart           1014 Brave Heart                             
+     2 <Null <Null>                1035 King Arthur-Inserted                    
+       >                                                                        
+                                                                                
+     3  1035 King Arthur           1035 King Arthur-Changed                     
+     4  1035 King Arthur-Deleted  <Null <Null>                                  
+                                  >                                             
+                                                                                
+     5 <Null <Null>                1094 Bourne                                  
+       >                                                                        
+                                                                                
+     6 <Null <Null>                1095 Bourne Legacy:                          
+       >                                                                        
+                                                                                
+     7  1095 Bourne Legacy:        1095 Bourne Legacy                           
+     8 <Null <Null>                1096 Star Wars: The Force Awakens            
+       >                                                                        
+                                                                                
+     9  1096 Star Wars: The Force  1096 Star Wars                               
+              Awakens                                                           
+                                                                                
+    10  1096 Star Wars             1096 Star Wars: The Force Awakens            
+    11  1096 Star Wars: The Force  1096 Star Wars                               
+              Awakens                                                           
+                                                                                
+    12  1096 Star Wars            <Null <Null>                                  
+                                  >                                             
+                                                                                
+
+12 rows selected.
