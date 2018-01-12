@@ -1,0 +1,26 @@
+
+Object ID Name                 Description                                      
+--------- -------------------- ----------------------------------------         
+     1001 Boromir              [1][Boromir][Men]                                
+     1002 Faramir              [2][Faramir][Men]                                
+     1003 Bilbo                [3][Bilbo][Hobbits]                              
+     1004 Frodo                [4][Frodo][Hobbits]                              
+     1005 Merry                [5][Merry][Hobbits]                              
+     1006 Pippin               [6][Pippin][Hobbits]                             
+     1007 Samwise              [7][Samwise][Hobbits]                            
+     1008 Gimli                [8][Gimli][Dwarves]                              
+     1009 Feanor               [9][Feanor][Elves][Noldor]                       
+     1010 Tauriel              [10][Tauriel][Elves][Silvan]                     
+     1011 Earwen               [11][Earwen][Elves][Teleri]                      
+     1012 Celeborn             [12][Celeborn][Elves][Teleri]                    
+     1013 Thranduil            [13][Thranduil][Elves][Sindar]                   
+     1014 Legolas              [14][Legolas][Elves][Sindar]                     
+     1015 Azoth the Defiler    [15][Azoth the Defiler][Orcs]                    
+     1016 Bolg                 [16][Bolg][Orcs]                                 
+     1017 Gandalf the Grey     [17][Gandalf the Grey][Maiar]                    
+     1018 Radagast the Brown   [18][Radagast the Brown][Maiar]                  
+     1019 Saruman the White    [19][Saruman the White][Maiar]                   
+     1020 The Great Goblin     [20][The Great Goblin][Goblins]                  
+     1021 Aragorn              [21][Aragorn][Men]                               
+
+21 rows selected.
