@@ -1,0 +1,132 @@
+DROP TABLE avenger
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+
+Table created.
+
+
+AVENGER_ID FIRST_NAME           Last Name      CHARACTER_NAME                   
+---------- -------------------- -------------- --------------------             
+         1 Anthony              Stark          Iron Man                         
+         2 Thor                 Odinson        God of Thunder                   
+         3 Steven               Rogers         Captain America                  
+         4 Bruce                Banner         Hulk                             
+         5 Clinton              Barton         Hawkeye                          
+         6 Natasha              Romanoff       Black Widow                      
+
+6 rows selected.
+
+DROP TABLE file_list
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+
+Table created.
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ FILE_NAME                                          VARCHAR2(60)
+
+
+FILE_NAME                                                                       
+------------------------------------------------------------                    
+HarryPotter1.txt                                                                
+HarryPotter2.txt                                                                
+HarryPotter3.txt                                                                
+HarryPotter4.txt                                                                
+HarryPotter5.txt                                                                
+
+5 rows selected.
+
+
+Procedure created.
+
+PROCEDURE load_clob_from_file
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ SRC_FILE_NAME                  VARCHAR2                IN    
+ TABLE_NAME                     VARCHAR2                IN    
+ COLUMN_NAME                    VARCHAR2                IN    
+ PRIMARY_KEY_NAME               VARCHAR2                IN    
+ PRIMARY_KEY_VALUE              VARCHAR2                IN    
+
+
+PL/SQL procedure successfully completed.
+
+
+ITEM_ID ITEM_TITLE                                   LENGTH(I.ITEM_DESC)        
+------- -------------------------------------------- -------------------        
+   1028 Harry Potter and the Goblet of Fire                         7721        
+
+1 row selected.
+
+
+2 rows updated.
+
+
+Table altered.
+
+
+TEXT_FILE_NAME   ITEM_TITLE                                                     
+---------------- ------------------------------------------                     
+<Null>           Harry Potter and the Chamber of Secrets                        
+<Null>           Harry Potter and the Goblet of Fire                            
+<Null>           Harry Potter and the Order of the Phoenix                      
+<Null>           Harry Potter and the Prisoner of Azkaban                       
+<Null>           Harry Potter and the Sorcerer's Stone                          
+
+5 rows selected.
+
+
+2 rows updated.
+
+
+3 rows updated.
+
+
+2 rows updated.
+
+
+6 rows updated.
+
+
+1 row updated.
+
+
+TEXT_FILE_NAME   ITEM_TITLE                                                     
+---------------- ------------------------------------------                     
+HarryPotter1.txt Harry Potter and the Sorcerer's Stone                          
+HarryPotter2.txt Harry Potter and the Chamber of Secrets                        
+HarryPotter3.txt Harry Potter and the Prisoner of Azkaban                       
+HarryPotter4.txt Harry Potter and the Goblet of Fire                            
+HarryPotter5.txt Harry Potter and the Order of the Phoenix                      
+
+5 rows selected.
+
+
+Procedure created.
+
+
+PL/SQL procedure successfully completed.
+
+
+ITEM_ID ITEM_TITLE                                   TEXT_SIZE                  
+------- -------------------------------------------- ---------                  
+   1021 Harry Potter and the Sorcerer's Stone            6,737                  
+   1022 Harry Potter and the Sorcerer's Stone            6,737                  
+   1023 Harry Potter and the Chamber of Secrets          7,999                  
+   1024 Harry Potter and the Chamber of Secrets          7,999                  
+   1025 Harry Potter and the Prisoner of Azkaban         5,936                  
+   1026 Harry Potter and the Prisoner of Azkaban         5,936                  
+   1027 Harry Potter and the Chamber of Secrets          7,999                  
+   1028 Harry Potter and the Goblet of Fire              7,721                  
+   1029 Harry Potter and the Goblet of Fire              7,721                  
+   1030 Harry Potter and the Goblet of Fire              7,721                  
+   1031 Harry Potter and the Order of the Phoenix        8,061                  
+
+11 rows selected.

@@ -1,0 +1,50 @@
+DROP TYPE table_list
+*
+ERROR at line 1:
+ORA-04043: object TABLE_LIST does not exist 
+
+
+DROP TYPE table_struct
+*
+ERROR at line 1:
+ORA-04043: object TABLE_STRUCT does not exist 
+
+
+
+Type created.
+
+
+Type created.
+
+DROP FUNCTION listing
+*
+ERROR at line 1:
+ORA-04043: object LISTING does not exist 
+
+
+
+Function created.
+
+
+Table Name           Column #  Row #                                            
+-------------------- -------- ------                                            
+SYSTEM_USER                11      5                                            
+COMMON_LOOKUP              10     49                                            
+MEMBER                      9     10                                            
+CONTACT                    10     18                                            
+ADDRESS                    10     18                                            
+STREET_ADDRESS              8     28                                            
+TELEPHONE                  11     18                                            
+RENTAL                      8  4,694                                            
+ITEM                       14     93                                            
+RENTAL_ITEM                 9  4,703                                            
+PRICE                      11    558                                            
+TRANSACTION                12  4,694                                            
+CALENDAR                    9    300                                            
+AIRPORT                     9      6                                            
+ACCOUNT_LIST                8    200                                            
+
+15 rows selected.
+
+
+Commit complete.

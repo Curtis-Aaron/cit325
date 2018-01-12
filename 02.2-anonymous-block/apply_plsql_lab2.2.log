@@ -1,0 +1,23 @@
+Log: apply_plsql_lab2.2.log
+==========================================
+Test Case: String less than 11 characters
+------------------------------------------
+Hello Harry!
+
+PL/SQL procedure successfully completed.
+
+==========================================
+Test Case: String more than 10 characters
+------------------------------------------
+Hello Rumpelstil!
+
+PL/SQL procedure successfully completed.
+
+==========================================
+Test Case: Empty string
+------------------------------------------
+Hello World!
+
+PL/SQL procedure successfully completed.
+
+==========================================

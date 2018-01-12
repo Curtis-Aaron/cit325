@@ -1,0 +1,72 @@
+
+PL/SQL procedure successfully completed.
+
+
+                                                            Item                
+Item                                                        Release             
+Barcode    Item Title                                       Date                
+---------- ------------------------------------------------ ------------        
+B01IOHVPA8 Jason Bourne                                     06-DEC-16           
+B002ZHKZCO The Bourne Identity                              19-JAN-10           
+B0068FZ18C The Bourne Supremacy                             10-JAN-12           
+B00AIZK85E The Bourne Ultimatum                             11-DEC-12           
+B01AT251XY The Bourne Legacy                                05-APR-16           
+B01LTHWTHO Inferno                                          24-JAN-17           
+
+6 rows selected.
+
+
+PL/SQL procedure successfully completed.
+
+
+                                                Item                            
+Item                                            Release                         
+Barcode    Item Title                           Date                            
+---------- ------------------------------------ ------------                    
+B002ZHKZCO The Bourne Identity                  19-JAN-10                       
+B0068FZ18C The Bourne Supremacy                 10-JAN-12                       
+B00AIZK85E The Bourne Ultimatum                 11-DEC-12                       
+B01AT251XY The Bourne Legacy                    05-APR-16                       
+B01IOHVPA8 Jason Bourne                         06-DEC-16                       
+B0084IG7KC The Hunger Games                     18-AUG-12                       
+B008JFUS8M The Hunger Games: Catching Fire      07-MAR-14                       
+B01LTHWTHO Inferno                              24-JAN-17                       
+
+8 rows selected.
+
+Inside [PROCEDURE].                                                             
+Inside [PROCEDURE].                                                             
+Inside [].                                                                      
+DECLARE
+*
+ERROR at line 1:
+ORA-20001: 
+ORA-06512: at line 35 
+
+
+
+                                                Item                            
+Item                                            Release                         
+Barcode    Item Title                           Date                            
+---------- ------------------------------------ ------------                    
+B002ZHKZCO The Bourne Identity                  19-JAN-10                       
+B0068FZ18C The Bourne Supremacy                 10-JAN-12                       
+B00AIZK85E The Bourne Ultimatum                 11-DEC-12                       
+B01AT251XY The Bourne Legacy                    05-APR-16                       
+B01IOHVPA8 Jason Bourne                         06-DEC-16                       
+B0084IG7KC The Hunger Games                     18-AUG-12                       
+B008JFUS8M The Hunger Games: Catching Fire      07-MAR-14                       
+B00PYLT4YI The Hunger Games: Mockingjay Part 1  06-MAR-15                       
+B01LTHWTHO Inferno                              24-JAN-17                       
+
+9 rows selected.
+
+
+  Error                                           Error                         
+   ID # Object Name          Module Name          ID #                          
+------- -------------------- -------------------- ----------                    
+      3 PROCEDURE            INSERT_ITEMS         ORA-20001                     
+      2 PROCEDURE            INSERT_ITEM          ORA-20001                     
+      1 Test Object          Test Module          ORA-00001                     
+
+3 rows selected.

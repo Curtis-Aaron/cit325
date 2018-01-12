@@ -1,0 +1,100 @@
+
+SYSTEM_USER_ID SYSTEM_USER_NAME                                                 
+-------------- --------------------                                             
+             2 DBA                                                              
+             3 DBA                                                              
+             4 DBA                                                              
+             5 DBA                                                              
+
+4 rows selected.
+
+
+4 rows updated.
+
+
+PL/SQL procedure successfully completed.
+
+
+SYSTEM_USER_ID SYSTEM_USER_NAME                                                 
+-------------- --------------------                                             
+             2 DBA 1                                                            
+             3 DBA 2                                                            
+             4 DBA 3                                                            
+             5 DBA 4                                                            
+
+4 rows selected.
+
+
+PL/SQL procedure successfully completed.
+
+
+Procedure created.
+
+
+PL/SQL procedure successfully completed.
+
+
+                         ACCOUNT                                                
+FULL_NAME                NUMBER     ADDRESS                TELEPHONE            
+------------------------ ---------- ---------------------- --------------       
+Charles Francis Xavier   SLC-000008 Milbridge, Maine       (207) 111-1234       
+
+1 row selected.
+
+
+PL/SQL procedure successfully completed.
+
+
+                         ACCOUNT                                                
+FULL_NAME                NUMBER     ADDRESS                TELEPHONE            
+------------------------ ---------- ---------------------- --------------       
+Maura Jane Haggerty      SLC-000009 Bangor, Maine          (207) 111-1234       
+
+1 row selected.
+
+
+PL/SQL procedure successfully completed.
+
+
+                         ACCOUNT                                                
+FULL_NAME                NUMBER     ADDRESS                TELEPHONE            
+------------------------ ---------- ---------------------- --------------       
+Harriet Mary McDonnell   SLC-000010 Orono, Maine           (207) 111-1234       
+
+1 row selected.
+
+
+Type created.
+
+
+Type created.
+
+
+Function created.
+
+
+FULL_NAME                                                                       
+------------------------                                                        
+Randi Winn                                                                      
+Brian Winn                                                                      
+Oscar Vizquel                                                                   
+Doreen Vizquel                                                                  
+Meaghan Sweeney                                                                 
+Matthew Sweeney                                                                 
+Ian M Sweeney                                                                   
+Clinton Goeffrey Ward                                                           
+Brandt Henry Ward                                                               
+Moss Wendy Jane                                                                 
+Gretelz Simon Jonah                                                             
+Royal Elizabeth Jane                                                            
+Smith Brian Nathan                                                              
+Harry Potter                                                                    
+Ginny Potter                                                                    
+James Sirius Potter                                                             
+Albus Severus Potter                                                            
+Lily Luna Potter                                                                
+Charles Francis Xavier                                                          
+Maura Jane Haggerty                                                             
+Harriet Mary McDonnell                                                          
+
+21 rows selected.

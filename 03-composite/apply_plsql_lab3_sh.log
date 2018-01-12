@@ -1,0 +1,32 @@
+Log: apply_plsql_lab3_sh.log
+==========================================
+Test Case: Only number and string
+------------------------------------------
+
+Function created.
+
+Record [38] [catch22] []
+
+PL/SQL procedure successfully completed.
+
+==========================================
+Test Case: Valid number, string and date.
+------------------------------------------
+
+Function created.
+
+Record [41] [aerodromes] [13-OCT-07]
+
+PL/SQL procedure successfully completed.
+
+==========================================
+Test Case: Bad DATE string
+------------------------------------------
+
+Function created.
+
+Record [81] [dagger] []
+
+PL/SQL procedure successfully completed.
+
+==========================================

@@ -1,0 +1,55 @@
+
+Sequence created.
+
+
+Table created.
+
+
+Table altered.
+
+
+RATING_AGENCY_ID RATING   RATI                                                  
+---------------- -------- ----                                                  
+            1001 PG       MPAA                                                  
+            1002 T        ESRB                                                  
+            1003 R        MPAA                                                  
+            1004 NR       MPAA                                                  
+            1005 PG-13    MPAA                                                  
+            1006 E10+     ESRB                                                  
+            1007 G        MPAA                                                  
+
+7 rows selected.
+
+DROP TYPE agency
+*
+ERROR at line 1:
+ORA-04043: object AGENCY does not exist 
+
+
+DROP TYPE agencies
+*
+ERROR at line 1:
+ORA-04043: object AGENCIES does not exist 
+
+
+
+Type created.
+
+
+Type created.
+
+
+PL/SQL procedure successfully completed.
+
+
+RATING_AGENCY_ID   COUNT(*)                                                     
+---------------- ----------                                                     
+            1001         26                                                     
+            1002          7                                                     
+            1003          7                                                     
+            1004          3                                                     
+            1005         45                                                     
+            1006          3                                                     
+            1007          2                                                     
+
+7 rows selected.
