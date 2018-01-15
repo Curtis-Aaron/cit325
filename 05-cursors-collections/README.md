@@ -1,4 +1,4 @@
-The lab is designed to teach you how to work with cursor loops, SQL collections, and an UPDATE statement in a range for loop. The anonymous block PL/SQL program should achieve these objectives:
+This lab is designed to teach you how to work with cursor loops, SQL collections, and an UPDATE statement in a range for loop. The anonymous block PL/SQL program should achieve these objectives:
 <ul>
   <li>Learn how to instantiate an empty collection.</li>
   <li>Learn how to extend memory space in a collection one element at a time.</li>

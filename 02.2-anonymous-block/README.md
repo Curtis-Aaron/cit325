@@ -1,4 +1,4 @@
-The lab is designed to teach you how to write anonymous block PL/SQL programs that evaluate and correct where possible input parameters. It specifically achieves these objectives:
+This lab is designed to teach you how to write anonymous block PL/SQL programs that evaluate and correct where possible input parameters. It specifically achieves these objectives:
 <ul>
   <li>Learn how to create basic anonymous block PL/SQL programs.</li>
   <li>Learn how to assign substitution variables to an anonymous block PL/SQL program.</li>

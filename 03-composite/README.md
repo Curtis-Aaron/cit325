@@ -1,4 +1,4 @@
-The lab is designed to teach you how to work with composite data types in the scope of an anonymous PL/SQL programs. You evaluate and create a stored procedure that accepts three input parameters-a variable length string, a number, and a date. The anonymous block PL/SQL program should achieve these objectives:
+This lab is designed to teach you how to work with composite data types in the scope of an anonymous PL/SQL programs. You evaluate and create a stored procedure that accepts three input parameters-a variable length string, a number, and a date. The anonymous block PL/SQL program should achieve these objectives:
 <ul>
   <li>Learn how to declare a PL/SQL record type.</li>
   <li>Learn how to evaluate random string inputs and determine if they’re a number, string, or date.</li>
